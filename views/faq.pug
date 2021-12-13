@@ -1,0 +1,59 @@
+extends base.pug 
+
+
+
+block style 
+    style 
+        include ../static/style.css 
+
+block content 
+
+
+    section#faqs 
+        h1 FAQ's - Frequently Asked Questions 
+        div.faq
+            ul 
+                li What do you have to sell?
+            p We are bringing in our fold traditional, native, healthy and unique tasting sweets and snacks to be delivered at your doorstep    
+            ul 
+                li Where are the products prepared?
+            p The products are prepared at the place where they have originated from or are well known and famous. Yes, if your choice is Kachori then it is obviously from Kota District.    
+            ul 
+                li Are only native snacks and sweets dealt with?
+            p No. All snacks and sweets that are not only native but those which have a unique taste from a particular place are also brought in our fold.
+
+    
+            ul 
+                li How will my order be delivered?
+            p Courier companies offering the best services are roped in to deliver your products safely.  
+            ul 
+                li What are your delivery hours? 
+            p Our delivery hour is from 8:00AM to 10:00PM    
+            ul 
+
+    section#nexttonext 
+        div.nexttonext
+            div#logo2 
+                img(src="/static/logo1.png")
+            h1 CONTACT INFORMATION
+            div#as
+                div.li
+                    div.ma PHONE  
+                    div.loo 91-7976329790
+                div.li 
+                    div.ma ADDRESS
+                    div.loo A-33322 Vijay Singh Pathik Nagar, Bhilwara(Rajasthan)INDIA
+                div.li
+                    div.ma MAIL 
+                    div.loo harshitakabra2002@gmail.com   
+
+    script.
+        burger = document.querySelector('.burger')
+        navbar = document.querySelector('.navbar')
+        navList = document.querySelector('.ull')
+        burger.addEventListener('click',()=>{
+        navList.classList.toggle('v-class-resp');
+        
+        navList.classList.toggle('h-nav-resp');
+               
+        })                

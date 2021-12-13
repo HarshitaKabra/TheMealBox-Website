@@ -1,0 +1,1207 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Fuzzy+Bubbles:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@800&family=Cabin:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Baloo+Bhai+2:wght@800&family=Cabin:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Baloo+Bhai+2:wght@800&family=Cabin:ital,wght@1,700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Baloo+Bhai+2:wght@800&family=Cabin:ital,wght@1,700&family=Pacifico&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Baloo+Bhai+2:wght@800&family=Cabin:ital,wght@1,700&family=Pacifico&family=Poppins:wght@700&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Baloo+Bhai+2:wght@800&family=Cabin:ital,wght@1,700&family=Pacifico&family=Poppins:wght@700&family=Raleway:wght@700&family=Roboto+Condensed:wght@700&display=swap');
+*{    
+margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 12px 28px;
+    font-size: 30px;
+    margin: 34px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+
+.navbar li{
+    list-style: none;
+
+}
+
+.ull{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    background-color: black;
+    background-blend-mode: darken;
+    position: fixed;
+    
+    
+    opacity: 0.6;
+    
+    width: 100%;
+}
+
+
+.navbar{
+    background: url('/static/bgg.jpg') no-repeat center center/cover;
+    padding: 7px 0px;
+    
+    width:100%;
+    height: 250px;
+    
+    
+    display: flex;
+}
+
+
+.navbar li a:hover{
+    color: black;
+    background-color: gray;
+}
+
+
+
+#logo img{
+    
+    
+    height: 66px;
+    padding: -4px 4px;
+    width: 150px;
+
+
+
+} 
+
+
+#logo{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    margin: 0 1px;
+    font-size: 25px;
+    margin-right: -21px;
+    font-family: 'Fuzzy Bubbles', cursive;
+
+
+}
+
+
+
+
+
+
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    top: 360px;
+}
+
+
+#introSection{
+
+    height: 700px;
+    display: flex;
+
+}
+
+.firstHalf {
+    width: 53%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+    text-align: center;
+}
+
+
+.secondHalf {
+    width: 41%;
+    z-index: -1;
+   
+}
+
+
+
+.secondHalf img{
+    border-radius: 13px;
+    width: 100%;
+    height: 75%;
+
+}
+
+
+
+
+
+
+
+
+
+.small{
+    font-size: 36px;
+    
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+   
+    border-bottom: 6px solid;
+    
+    
+
+}
+
+
+.medium{
+    
+    font-size: 62px;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+
+
+}
+
+
+.ss{
+    
+    font-size: 26px;
+    
+    font-family: 'Baloo Bhai 2', cursive;
+    
+}
+
+
+
+#nextSection{
+    color: #151515;
+    z-index: -1;
+    background-color: #f6dfdf;
+    display: flex;
+    height: 320px;
+}
+
+
+
+.nextSection{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.nextSection h1{
+    font-size: 62px;
+    font-family: 'Baloo Bhai 2', cursive;
+    border-bottom: 6px dashed;
+    line-height: 0.9;
+}
+
+.nextsmall{
+    font-family: 'Baloo Bhai 2', cursive;
+    padding: 11px 4px;
+    font-size: 20px;
+
+
+}
+
+.nextbox{
+    padding: 10px 23px;
+    margin-top: 23px;
+
+}
+
+.next{
+    font-size: 24px;
+    font-family: 'Baloo Bhai 2', cursive;
+    margin-top: 18px;
+
+}
+
+
+
+#nexttonext{
+    position: absolute;
+    width: 100%;
+    
+    height: 400px;
+}
+
+
+.nexttonext{
+
+    background: rgba(0,0,0,0.7) url('/static/footer.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+
+
+}
+
+
+
+#logo2{
+
+    width: 30%;
+    margin: auto;
+    display: flex;
+}
+
+
+
+
+#logo2 img{
+    width: 100%;
+}
+
+
+.nexttonext h1{
+    color: white;
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    
+
+
+
+}
+
+#as{
+    display: flex;
+    flex-direction: row;
+    z-index: -1;
+    text-align: center;
+}
+
+
+.li{
+    
+    width: 30%;
+    margin: 96px 16px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 213px;
+    font-size: 34px;
+    font-weight: bold;
+    color: white;
+    font-family: inherit;
+    padding-top: 33px;
+    
+
+
+}
+
+.ma{
+    border-bottom: 2px solid white;
+    width: 36%;
+    margin: auto;
+    line-height: 1.0;
+
+
+}
+
+
+.loo {
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+#faqs{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 16px;
+
+}
+
+
+
+
+#faqs h1{
+
+    margin-top: 50px;
+    font-size: 46px;
+    font-family: 'Raleway', sans-serif;
+
+    
+}
+
+
+
+.faq{
+    margin-top: 29px;
+    text-align: center;
+
+}
+#footer{
+    
+    display: flex;
+    color: white;
+    background-color: black;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    
+    
+}
+
+
+.faq ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.faq ul li{
+    font-size: 34px;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+    padding: 3px 3px;
+
+}
+
+.faq p{
+    text-align: center;
+    display: block;
+    width: 76%;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: orange;
+
+}
+
+
+
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-color: black;
+    color: #d1d0d0;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    
+    margin-bottom: 37px;
+    margin-top: 23px;
+    
+
+}
+
+
+.contact h1{
+    font-size: 78px;
+}
+
+#love{
+    font-size: 41px;
+    padding: 15px 3px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.heart:before {
+    content: '\2665';
+    color: red;
+  }
+
+
+.myInput{
+  outline: none;
+  
+    padding: 9px 35px;
+   
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 9px;
+    width: 58%;
+    margin: 3px 3px;
+}
+
+
+.btn{
+    
+    padding: 13px 186px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 9px;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-bottom: 64px;
+    font-weight: bold;
+}
+
+
+
+#OurStory{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url('/static/mom.jpg') no-repeat center center/cover;
+    opacity: 0.9;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+.notcool{
+
+    font-size: 4.2rem;
+    color: #d5d03d;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: inline-block;
+    
+    margin-left: 25%;
+    margin-top: 9%;
+}
+
+
+.cool{
+    text-align: center;
+    display: block;
+    
+    font-size: 33px;
+    width: 35%;
+    
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 17%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+
+
+}
+
+
+
+#services-container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    margin-top: 3%;
+    font-size: 4.2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 2%;
+
+
+}
+
+#services{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.box{
+
+    width: 20%;
+    margin-bottom: 23px;
+    
+}
+
+.box img{
+    width: 90%;
+    height: 50%;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url('/static/back.jpg');
+    background-size: cover;
+}
+
+#menu h1{
+    font-size: 68px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 37px 9px;
+    border-bottom: 6px solid;
+    font-weight: bold;
+    color: #090934;
+
+
+}
+
+
+#menu img{
+    width: 65%;
+    height: 1200px;
+    margin-bottom: 34px;
+
+}
+
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top:15px;
+    display: none;
+}
+
+
+.line{
+    width: 48px;
+    background-color: white;
+    height: 8px;
+    margin: 5px 7px;
+
+}
+
+
+
+
+@media only screen and (max-width: 1160px){
+    .ull{
+        display: flex;
+        flex-direction: column;
+        
+        height: 250px;
+        transition: all 0.7s ease-in-out;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .h-nav-resp{
+        height: 62px;
+       
+
+    }
+
+    .v-class-resp{
+        visibility: hidden;
+    }
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+/*
+    #introSection img{
+
+        height: 100%;
+        width: 100%;
+    
+
+    }
+    
+
+    .large{
+        margin-top:-38px;
+        font-family: 'Baloo Bhai 2', cursive;
+     
+        border-bottom: 6px solid;
+
+    }
+
+    span{
+        font-family: 'Anton', sans-serif;
+    }
+    
+    
+    .small{
+        font-size: 2rem;
+        margin-top: 14px;
+        font-weight: bold;
+        font-family: 'Pacifico', cursive;
+        
+        border-bottom: 6px solid;
+    }
+    
+
+
+
+
+
+    #nextSection{
+
+        background-color: #f6dfdf;
+        color: #151515;
+        height: 300px;
+        position: absolute;
+        top: 934px;
+        
+        width: 100%;
+        z-index: -1;
+        
+        
+    }
+
+    #box{
+        text-align: center;
+    width: 50%;
+    position: absolute;
+    margin: auto;
+    left: 350px;
+    font-size: 20px;
+    padding: 4px 4px;
+    font-family: 'Baloo Bhai 2', cursive;
+
+
+    }
+
+
+    #nextSection h1{
+        margin: auto;
+        display: flex;
+        width: 28%;
+        font-size: 62px;
+        margin-top: 13px;
+        font-family: 'Baloo Bhai 2', cursive;
+        padding: 3px 3px;
+        border-bottom: 6px dashed;
+        line-height: 0.9;
+        margin-bottom: 23px;
+        margin-top: 23px;
+        
+
+    }
+
+
+
+    #box1{
+        font-size: 20px;
+    padding: 4px 4px;
+    font-family: 'Baloo Bhai 2', cursive;
+    position: absolute;
+    top: 215px;
+    left: 601px;
+
+    }
+
+
+
+    #nexttonext{
+        background: url(/static/footer.jpg) no-repeat center center/cover;
+        position: absolute;
+        height: 856px;
+        display: block;
+        width: 100%;
+        top: 1234px;
+        background-blend-mode: darken;
+        
+        background-color: #8e8484;
+        z-index: -1;
+    
+    }
+
+
+
+    #nexttonextStory{
+        background: url(/static/footer.jpg) no-repeat center center/cover;
+        position: absolute;
+        height: 856px;
+        display: block;
+        width: 100%;
+        top: 1667px;
+        background-blend-mode: darken;
+        
+        background-color: #8e8484;
+        z-index: -1;
+    
+    }
+
+   
+
+
+    #nexttonextStory h1{
+        margin: auto;
+    display: flex;
+    width: 33%;
+    font-size: 46px;
+    margin-top: 13px;
+    font-family: 'Baloo Bhai 2', cursive;
+    padding: 3px 3px;
+    border-bottom: 6px dashed;
+    line-height: 0.9;
+    margin-bottom: 23px;
+    margin-top: 23px;
+    color: white;
+
+
+    }
+
+
+    #nexttonextcontact{
+        background: url(/static/footer.jpg) no-repeat center center/cover;
+        position: absolute;
+        height: 856px;
+        display: block;
+        width: 100%;
+        top: 1009px;
+        background-blend-mode: darken;
+        
+        background-color: #8e8484;
+        z-index: -1;
+    
+    }
+
+   
+
+
+    #nexttonextcontact h1{
+        margin: auto;
+    display: flex;
+    width: 33%;
+    font-size: 46px;
+    margin-top: 13px;
+    font-family: 'Baloo Bhai 2', cursive;
+    padding: 3px 3px;
+    border-bottom: 6px dashed;
+    line-height: 0.9;
+    margin-bottom: 23px;
+    margin-top: 23px;
+    color: white;
+
+
+    }
+
+    #as{
+
+        display: flex;
+        z-index: -1;
+
+
+    }
+
+    .li{
+
+
+        
+        width: 30%;
+    margin: 96px 16px;
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 213px;
+    font-size: 34px;
+    font-weight: bold;
+    color: white;
+    font-family: inherit;
+    padding-top: 33px;
+   
+
+}
+    
+
+   
+
+    .loo{
+        font-size: 20px;
+        margin-top: 40px;
+
+
+    }
+
+    .ma{
+        border-bottom: 2px solid white;
+        
+        width: 36%;
+        margin: auto;
+        line-height: 1.0;
+
+    }
+
+
+
+    #logo2 {
+        height: 351px;
+        display: block;
+        width: 30%;
+        margin: auto;
+
+    }
+    #logo2 img{
+        height: 300px;
+        left: 300px;
+    }
+
+
+
+    
+#footerhome{
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    z-index: 1;
+    position: relative;
+    top: 1426px;
+}
+
+
+#footercontact{
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    z-index: 1;
+    position: relative;
+    top: 856px;
+}
+#footermenu{
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    z-index: 1;
+    position: relative;
+    top: 858px;
+}
+#footerfaq{
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    z-index: 1;
+    position: relative;
+    top: 1118px;
+}
+
+
+#menu{
+
+    display: flex;
+    flex-direction: row;
+    
+    
+
+
+
+}
+
+#menu img{
+    width: 506px;
+    height: 960px;
+    border: 4px solid black;
+}
+
+
+
+
+#faqs h1{
+
+    display: block;
+    width: 30%;
+    margin: 13px 546px;
+    font-size: 46px;
+    margin-top: 29px;
+}
+
+
+
+#faqs ul li{
+    margin-top: 27px;
+    font-size: 25px;
+    padding: 6px 6px;
+    color: #ea5021;
+    font-weight: bold;
+    position: absolute;
+    left: 600px;
+    
+
+
+
+}
+
+ul{
+    display: list-item;
+    list-style-type: disc;
+    padding-left: 40px;
+}
+li{
+    display: list-item;
+}
+
+
+
+
+#faqs p{
+    
+    font-size: 16px;
+    width: 50%;
+    margin: 26px auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 40px;
+}
+li::marker {
+    content: initial;
+}
+
+#services-container h1{
+    color:black;
+}
+
+
+
+.h-primary{
+    
+    margin: -1px 40px;
+    padding: 59px 33px;
+    font-size: 4.2rem;
+    color: #d5d03d;
+    
+    text-align: center;
+    width: 30%;
+    position: relative;
+    top: 111px;
+    left: 151px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.center{
+    text-align:center;
+}
+
+.h-secondary{
+    font-size: 1.3rem;
+    padding: 4px 33px;
+    font-family: 'Bree Serif', serif;
+}
+
+
+.cool{
+
+    text-align: center;
+    display: block;
+    
+    font-size: 33px;
+    width: 35%;
+    margin-bottom: 83px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
+    top: 75px;
+    left: 189px;
+}
+
+
+
+
+
+
+#services{
+    
+    margin: 34px;
+    display: flex;
+}
+
+
+#services .box{
+
+    
+   
+    display: flex;
+    flex-direction: column;
+  
+    margin: 25px -5px;
+    border-radius: 31px;
+    text-align: center;
+    
+    padding: 43px 0px;
+}
+#services .box img{
+    height: 211px;
+    margin: 16px 10px;
+    padding: 0px -13px;
+    border-radius: 13px;
+    display: block;
+    width: 350px;
+    border: 3px solid black;
+ 
+
+}
+
+#services .box p{
+    font-family: 'Bree Serif', serif;
+    font-size: 0.9rem;
+}
+
+
+
+#OurStory{
+    background: url('/static/mom.jpg') no-repeat center center/cover;
+    height: 600px;
+    background-blend-mode: darken;
+    opacity: 0.9;
+    font-family: 'Roboto Condensed', sans-serif;
+
+   
+}
+
+
+
+.heart:before {
+    content: '\2665';
+    color: red;
+  }
+
+
+
+#contact{
+    background-color: black;
+    color: #d1d0d0;
+    z-index: -1;
+    opacity: 0.8;
+
+}  
+
+
+
+#contact h1{
+    display: block;
+    width: 26%;
+    margin: auto;
+    font-size: 78px;
+    position: relative;
+
+    top: 23px;
+    margin-bottom: 50px;
+
+
+}
+
+
+#love{
+
+    display: block;
+    width: 21%;
+    margin: auto;
+    font-size: 41px;
+    padding: 15px 3px;
+   
+    font-family: 'Raleway', sans-serif;
+
+
+}
+
+
+
+
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+.myInput{
+    outline: none;
+    width: 40%;
+    padding: 9px 35px;
+    margin: 7px 4px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 9px;
+
+
+   
+
+
+}
+
+
+
+.btn{
+    
+    padding: 13px 186px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 9px;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-bottom: 64px;
+    font-weight: bold;
+}
+} */

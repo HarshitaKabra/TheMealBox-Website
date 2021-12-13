@@ -1,0 +1,70 @@
+extends base.pug 
+
+
+
+block style 
+    style 
+        include ../static/style.css 
+
+block content 
+
+    #OurStory 
+        span.notcool Our Vision
+        span.cool TheMealBox promises to deliver its patrons healthy, hygienic, home made food which could remind us of our Mom's Magic.
+        
+        
+    section#services-container
+        span.container Our Mission
+        div#services
+            div.box
+                img(src="/static/home.jpg")
+                h2.h-secondary.center Support Local Female Chefs
+                
+
+            
+            div.box
+                img(src="/static/mom.png")
+                h2.h-secondary.centerBulk Empower homemakers
+                
+
+                
+            div.box
+                img(src="/static/homemadee.png")
+                h2.h-secondary.center Eat Sustainable Homemade Food
+
+
+
+            div.box
+                img(src="/static/junk.png")
+                h2.h-secondary.center Avoid junk food    
+                
+
+
+
+    section#nexttonext 
+        div.nexttonext
+            div#logo2 
+                img(src="/static/logo1.png")
+            h1 CONTACT INFORMATION
+            div#as
+                div.li
+                    div.ma PHONE  
+                    div.loo 91-7976329790
+                div.li 
+                    div.ma ADDRESS
+                    div.loo A-33322 Vijay Singh Pathik Nagar, Bhilwara(Rajasthan)INDIA
+                div.li
+                    div.ma MAIL 
+                    div.loo harshitakabra2002@gmail.com
+
+
+    script.
+        burger = document.querySelector('.burger')
+        navbar = document.querySelector('.navbar')
+        navList = document.querySelector('.ull')
+        burger.addEventListener('click',()=>{
+        navList.classList.toggle('v-class-resp');
+        
+        navList.classList.toggle('h-nav-resp');
+           
+        })                

@@ -1,0 +1,63 @@
+extends base.pug 
+
+
+
+block style 
+    style 
+        include ../static/style.css 
+
+
+
+block content 
+    
+                
+    section#introSection 
+        div.box-main
+            div.firstHalf
+
+                p.small Welcome to the best Food Ordering Service 
+                p.medium TheMealBox 
+                p.ss Don't Starve, Just Order!!
+            div.secondHalf    
+                img(src="/static/best.jpg")
+
+    section#nextSection 
+        div.nextSection
+
+            h1 Your Meal Spot     
+            div.nextbox 
+                p.nextsmall At the MealBox, we're committed to serving real food. Proudly offering quick, fresh
+                p.nextsmall and healthy alternatives in the Bhilwara since 2018
+                p.next  ALL-NATURAL |  NO PRESERVATIVES 
+
+    section#nexttonext 
+        div.nexttonext
+            div#logo2 
+                img(src="/static/logo1.png")
+            h1 CONTACT INFORMATION
+            div#as
+                div.li
+                    div.ma PHONE  
+                    div.loo 91-7976329790
+                div.li 
+                    div.ma ADDRESS
+                    div.loo A-33322 Vijay Singh Pathik Nagar, Bhilwara(Rajasthan)INDIA
+                div.li
+                    div.ma MAIL 
+                    div.loo harshitakabra2002@gmail.com
+    
+    
+    script.
+        burger = document.querySelector('.burger')
+
+        navList = document.querySelector('.ull')
+        burger.addEventListener('click',()=>{
+        navList.classList.toggle('v-class-resp');
+        
+        navList.classList.toggle('h-nav-resp');
+        //- navbar.classList.toggle('h-nav-resp');        
+        })
+            
+
+
+            
