@@ -1,0 +1,61 @@
+extends base.pug 
+
+
+
+block style 
+    style 
+        include ../static/style.css 
+
+block content 
+
+    section#contact 
+        div.contact
+            h1 CONTACT
+            hr 
+            div#love
+
+                | We'd 
+                span.heart
+                |  to help! 
+
+
+        form(action="/contact", method="post", class="myform")
+            input(type="text", class="myInput", name="name", placeholder="Your Name")
+        
+            input(type="email", class="myInput", name="email", placeholder="Email")
+            
+            
+            textarea(class="myInput", type="text",  name='myText', cols='90', rows='10', placeholder="Message")
+            button(class="btn")
+                | Submit
+
+
+                
+    section#nexttonext 
+        div.nexttonext
+            div#logo2 
+                img(src="/static/logo1.png")
+            h1 CONTACT INFORMATION
+            div#as
+                div.li
+                    div.ma PHONE  
+                    div.loo 91-7976329790
+                div.li 
+                    div.ma ADDRESS
+                    div.loo A-33322 Vijay Singh Pathik Nagar, Bhilwara(Rajasthan)INDIA
+                div.li
+                    div.ma MAIL 
+                    div.loo harshitakabra2002@gmail.com
+    
+ 
+    script.
+        burger = document.querySelector('.burger')
+        navbar = document.querySelector('.navbar')
+        navList = document.querySelector('.ull')
+        burger.addEventListener('click',()=>{
+        navList.classList.toggle('v-class-resp');
+        
+        navList.classList.toggle('h-nav-resp');
+           
+        })                    
+        
